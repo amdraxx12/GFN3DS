@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Exemple 1 - raccourci cree par le client GeForce NOW",
+    "type": "shortcut",
+    "path": "MonJeu.lnk",
+    "enabled": false
+  },
+  {
+    "name": "Exemple 2 - url_route (format non verifie sous Windows)",
+    "type": "url_route",
+    "cms_id": "123456789",
+    "short_name": "mon_jeu",
+    "parent_game_id": "",
+    "enabled": false
+  },
+  {
+    "name": "Exemple 3 - commande libre",
+    "type": "command",
+    "command": ["C:\\Chemin\\vers\\programme.exe", "--option"],
+    "enabled": false
+  }
+]

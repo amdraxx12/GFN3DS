@@ -1,0 +1,15 @@
+Dossier des jeux proposes sur la 3DS
+=====================================
+
+Normalement, vous n'avez rien a mettre ici : le relais retrouve tout seul les raccourcis crees par
+le client GeForce NOW (Bureau, fichiers .gfnpc, et dossier "NVIDIA Corporation\Games" du menu
+Demarrer). Comment faire : dans le client GeForce NOW, ouvrez un jeu puis "Creer un raccourci",
+et appuyez sur X (Actualiser) sur la 3DS.
+
+Ce dossier sert de secours : deposez-y un raccourci (.lnk, .url ou .gfnpc) par jeu, il apparait dans
+la liste "Jeux" de la 3DS sous le nom du fichier (sans l'extension).
+
+Autres moyens (fichier games.json, un jeu par entree) : voir games.example.json et le README.
+
+Pour verifier toute la chaine sans GeForce NOW, voir "Premiere mise en route" dans le README
+(image de test + programme quelconque). "start_relay.bat --check" affiche les jeux trouves.

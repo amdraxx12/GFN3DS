@@ -1,0 +1,4 @@
+numpy
+opencv-python
+dxcam; sys_platform == "win32"
+vgamepad; sys_platform == "win32"

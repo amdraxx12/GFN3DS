@@ -1,0 +1,93 @@
+{
+  "name": "",
+  "pin": "",
+  "bind": "0.0.0.0",
+  "lan_only": true,
+  "ports": {
+    "control": 47970,
+    "input": 47971,
+    "beacon": 47973
+  },
+  "capture": {
+    "source": "gfn",
+    "window_title": "GeForce NOW",
+    "window_process": "geforcenow",
+    "monitor": 0,
+    "region": null,
+    "fit": "stretch"
+  },
+  "games": {
+    "folder": "games",
+    "json": "games.json",
+    "auto_scan": true,
+    "extra_dirs": []
+  },
+  "gfn": {
+    "exe": "",
+    "auto_detect": true,
+    "log_dir": "",
+    "queue_regex": "",
+    "eta_regex": "",
+    "eta_unit": "min",
+    "loading_regex": "",
+    "streaming_regex": "",
+    "ended_regex": "",
+    "error_regex": ""
+  },
+  "input": {
+    "virtual_pad": true,
+    "deadzone_cpad": 12,
+    "deadzone_cstick": 12,
+    "cpad_max": 150,
+    "cstick_max": 120,
+    "face_layout": "label",
+    "mapping": {
+      "A": "A",
+      "B": "B",
+      "X": "X",
+      "Y": "Y",
+      "L": "LB",
+      "R": "RB",
+      "ZL": "LT",
+      "ZR": "RT",
+      "START": "START",
+      "SELECT": "BACK",
+      "DUP": "DPAD_UP",
+      "DDOWN": "DPAD_DOWN",
+      "DLEFT": "DPAD_LEFT",
+      "DRIGHT": "DPAD_RIGHT"
+    }
+  },
+  "beacon_targets": [],
+  "default_profile": "balanced",
+  "profiles": {
+    "perf": {
+      "label": "Performance maximale",
+      "fps": 30,
+      "q_min": 30,
+      "q_max": 60,
+      "target_kb": 8
+    },
+    "balanced": {
+      "label": "Qualite equilibree",
+      "fps": 30,
+      "q_min": 40,
+      "q_max": 75,
+      "target_kb": 11
+    },
+    "latency": {
+      "label": "Faible latence",
+      "fps": 40,
+      "q_min": 30,
+      "q_max": 55,
+      "target_kb": 7
+    },
+    "compat": {
+      "label": "Compatibilite max",
+      "fps": 20,
+      "q_min": 30,
+      "q_max": 55,
+      "target_kb": 6
+    }
+  }
+}
